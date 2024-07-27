@@ -30,10 +30,11 @@ Research experience
 * [Behavioral Enhancement and Adaptive Reality (BEAR) Lab](https://rochester-bear-lab.github.io/), University of Rochester
   * Research Assistant to [Prof. Yukang Yan](https://rochester-bear-lab.github.io/yukang)    
   * Date: June 2024 – Present
+  *
   * Contribute to one research project.
 
-* [Computational Media and Arts (CMA)](https://rochester-bear-lab.github.io/), University of Rochester
-  * Research Assistant to [Prof. Yukang Yan](https://rochester-bear-lab.github.io/yukang)    
-  * Date: May 2024 – Present
+* [Computational Media and Arts (CMA)](https://cma.hkust-gz.edu.cn/), Hong Kong University of Science and Technology (GZ)
+  * Research Assistant to [Prof. Xin Tong](https://cma.hkust-gz.edu.cn/people/tong-xin/)    
+  * Date: June 2024 – Present
   * Contribute to one research project.
   
