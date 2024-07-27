@@ -2,7 +2,7 @@
 title: "Enhancing Rehabilitation of Oral and Spoken Abilities in Children with Hearing Devices through ICT"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-author: Ruiqi Chen*, Yili Xu*, Xin Tong, Maitraye Das
+author: "*Ruiqi Chen, *Yili Xu, Xin Tong, Maitraye Das"
 date: 2025-02-17
 venue: 'CHI'
 paperurl: 
