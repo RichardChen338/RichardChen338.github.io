@@ -42,35 +42,37 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}  
         {% if page.author %}
-          <p>Author(s): {{ page.author | replace: "Ruiqi Chen", "<strong>Ruiqi Chen</strong>" | markdownify }}</p>
+          <p><strong>Author(s):</strong> {{ page.author | replace: "Ruiqi Chen", "<strong>Ruiqi Chen</strong>" | markdownify }}</p>
         {% endif %}
+    
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
 
-      {% if page.citation and page.paperurl and page.slidesurl and page.videourl %}
-        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Watch Video</a></p>
+      {% if page.citation and page.paperurl and page.codeurl and page.videourl %}
+        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.codeurl }}">Get Code</a> | <a href="{{ page.videourl }}">Watch Video</a></p>
       {% elsif page.citation and page.paperurl and page.videourl %}
         <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.videourl }}">Watch Video</a></p>
-      {% elsif page.citation and page.slidesurl and page.videourl %}
-        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.videourl }}">Watch Video</a></p>
-      {% elsif page.citation and page.paperurl and page.slidesurl %}
-        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.citation and page.codeurl and page.videourl %}
+        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.codeurl }}">Get Code</a> | <a href="{{ page.videourl }}">Watch Video</a></p>
+      {% elsif page.citation and page.paperurl and page.codeurl %}
+        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.codeurl }}">Get Code</a></p>
       {% elsif page.citation and page.paperurl %}
         <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
       {% elsif page.citation and page.videourl %}
         <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.videourl }}">Watch Video</a></p>
-      {% elsif page.citation and page.slidesurl %}
-        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.citation and page.codeurl %}
+        <p style="font-size: smaller">Recommended resource: {{ page.citation }}<br /><a href="{{ page.codeurl }}">Get Code</a></p>
       {% elsif page.paperurl %}
         <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></p>
       {% elsif page.videourl %}
         <p style="font-size: smaller"><a href="{{ page.videourl }}">Watch Video</a></p>
-      {% elsif page.slidesurl %}
-        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.codeurl %}
+        <p style="font-size: smaller"><a href="{{ page.codeurl }}">Get Code</a></p>
       {% endif %}
+      
       
 
       
