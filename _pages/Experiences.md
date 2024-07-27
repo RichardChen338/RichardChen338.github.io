@@ -20,14 +20,15 @@ Research experience
 * Makeability Lab, University of Washington
   * Research Assistant to Prof. Jon E. Froehlich 
   * Date: May 2024 – Present
+  * Contribute to one research project.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Technology, Equity, and Accessibility (TEA) Lab, Northeastern University
+  * Research Assistant to Prof. Maitraye Das
+  * Date: May 2024 – Present
+  * Contribute to two research project.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Behavioral Enhancement and Adaptive Reality (BEAR) Lab, University of Rochester
+  * Research Assistant to Prof. Yukang Yan    
+  * Date: May 2024 – Present
+  * Contribute to one research project.
   
