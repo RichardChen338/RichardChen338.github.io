@@ -52,8 +52,8 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if page.author %}
-      <p><strong>Author(s):</strong> {{ page.author | replace: "Ruiqi Chen", "<strong>Ruiqi Chen</strong>" | markdownify }}</p>
+    {% if post.author %}
+      <p><strong>Author(s):</strong> {{ post.author }}</p>
     {% endif %}
   
     
