@@ -17,7 +17,7 @@ Education
 
 Research experience
 ======
-* Makeability Lab, University of Washington
+* [Makeability Lab](https://makeabilitylab.cs.washington.edu/), University of Washington
   * Research Assistant to Prof. Jon E. Froehlich 
   * Date: May 2024 – Present
   * Contribute to one research project.
