@@ -41,9 +41,20 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}  
+
         {% if page.author %}
-          <p><strong>Author(s):</strong> {{ page.author | replace: "Ruiqi Chen", "<strong>Ruiqi Chen</strong>" | safe }}</p>
+          <p><strong>Author(s):</strong> 
+          {% assign authors = page.author | split: ", " %}
+          {% for author in authors %}
+            {% if author == "Ruiqi Chen" %}
+              <strong>{{ author }}</strong>{% if forloop.last == false %}, {% endif %}
+            {% else %}
+              {{ author }}{% if forloop.last == false %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+          </p>
         {% endif %}
+
        
         </header>
       {% endunless %}

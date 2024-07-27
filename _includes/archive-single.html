@@ -52,9 +52,20 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if page.author %}
-      <p><strong>Author(s):</strong> {{ page.author | replace: "Ruiqi Chen", "<strong>Ruiqi Chen</strong>" | safe }}</p>
+    {% if post.author %}
+      <p><strong>Author(s):</strong> 
+      {% assign authors = post.author | split: ", " %}
+      {% for author in authors %}
+        {% if author == "Ruiqi Chen" %}
+          <strong>{{ author }}</strong>{% if forloop.last == false %}, {% endif %}
+        {% else %}
+          {{ author }}{% if forloop.last == false %}, {% endif %}
+        {% endif %}
+      {% endfor %}
+      </p>
     {% endif %}
+
+  
   
     
   {% if post.citation and post.paperurl and post.codeurl and post.videourl %}
