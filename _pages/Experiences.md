@@ -18,12 +18,12 @@ Education
 Research experience
 ======
 * [Makeability Lab](https://makeabilitylab.cs.washington.edu/), University of Washington
-  * Research Assistant to Prof. Jon E. Froehlich 
+  * Research Assistant to [Prof. Jon E. Froehlich](https://jonfroehlich.github.io/) 
   * Date: May 2024 – Present
   * Contribute to one research project.
 
-* Technology, Equity, and Accessibility (TEA) Lab, Northeastern University
-  * Research Assistant to Prof. Maitraye Das
+* [Technology, Equity, and Accessibility (TEA) Lab], Northeastern University
+  * Research Assistant to [Prof. Maitraye Das](https://tealab.sites.northeastern.edu/)
   * Date: May 2024 – Present
   * Contribute to two research project.
 
