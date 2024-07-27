@@ -22,8 +22,8 @@ Research experience
   * Date: May 2024 – Present
   * Contribute to one research project.
 
-* [Technology, Equity, and Accessibility (TEA) Lab], Northeastern University
-  * Research Assistant to [Prof. Maitraye Das](https://tealab.sites.northeastern.edu/)
+* [Technology, Equity, and Accessibility (TEA) Lab](https://tealab.sites.northeastern.edu/), Northeastern University
+  * Research Assistant to [Prof. Maitraye Das](https://maitraye.github.io/)
   * Date: May 2024 – Present
   * Contribute to two research project.
 
