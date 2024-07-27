@@ -27,7 +27,7 @@ Research experience
   * Date: May 2024 – Present
   * Contribute to two research project.
 
-* Behavioral Enhancement and Adaptive Reality (BEAR) Lab, University of Rochester
+* [Behavioral Enhancement and Adaptive Reality (BEAR) Lab](https://rochester-bear-lab.github.io/), University of Rochester
   * Research Assistant to Prof. Yukang Yan    
   * Date: May 2024 – Present
   * Contribute to one research project.
