@@ -2,7 +2,7 @@
 title: "Design and Evaluation of a VR Therapy for Patients with Mild Cognitive Impairment and Dementia: Perspectives from Patients and Stakeholders."
 collection: publications
 permalink: /publication/DKU_DementiaVR_2023
-Author: "Ruiqi Chen, Shuhe Wang, Xuhai Xu, Lan Wei, Yuling Sun, Xin Tong"
+author: "Ruiqi Chen, Shuhe Wang, Xuhai Xu, Lan Wei, Yuling Sun, Xin Tong"
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-01-01
 venue: 'IEEE Virtual Reality'
