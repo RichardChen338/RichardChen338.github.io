@@ -1,10 +1,10 @@
 ---
 title: "Enhancing Memory and Communication Abilities in Mild Dementia: A Personalized Memory Collage App with AIGC Technology"
 collection: publications
-permalink: /publication/DKU_DementiaVR_2023
+permalink: /publication/DKU_DementiaAI_2024
 author: "Zhennan Yi, Zhifan Guo, Ruiqi Chen, Yuling Sun, Xin Tong"
 excerpt: 'This manuscript is submitted to CHI 2025, will come soon'
-date: 2024-01-01
+date: 2025-01-01
 venue: 'CHI'
 paperurl: 
 videourl: 
