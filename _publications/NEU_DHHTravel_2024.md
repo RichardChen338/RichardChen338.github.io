@@ -1,9 +1,9 @@
 ---
-title: "Enhancing Rehabilitation of Oral and Spoken Abilities in Children with Hearing Devices through ICT"
+title: "Practices and Challenges of the Travel Experiences and Communication of the Deaf and Hard of Hearing Community"
 collection: publications
-permalink: /publication/2024-02-17-paper-title-number-4
-author: "*Ruiqi Chen, *Yili Xu, Xin Tong, Maitraye Das"
-date: 2025-02-17
+permalink: /publication/NEU_DHHTravel_2024
+author: "Ruiqi Chen, Yili Xu, Xin Tong, Maitraye Das"
+date: 2025-03-17
 venue: 'CHI'
 paperurl: 
 excerpt: 'This manuscript is submitted to CHI 2025, will come soon'
