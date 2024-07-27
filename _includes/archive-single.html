@@ -52,9 +52,10 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if post.author %}
-      <p><strong>Author(s):</strong> {{ post.author }}</p>
+    {% if page.author %}
+      <p><strong>Author(s):</strong> {{ page.author | replace: "Ruiqi Chen", "<strong>Ruiqi Chen</strong>" | safe }}</p>
     {% endif %}
+  
     
   {% if post.citation and post.paperurl and post.codeurl and post.videourl %}
     <p>Recommended resource: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.codeurl }}">Get Code</a> | <a href="{{ post.videourl }}">Watch Video</a></p>
