@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "RUIQI CHEN"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Ruiqi Chen"
   pronouns         : He/him  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Human-AI Accessibility Researcher"
   location         : "Seattle"
   employer         : "University of Washington"
   uri              : # URL
