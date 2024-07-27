@@ -1,7 +1,7 @@
 ---
 title: "Design and Evaluation of a VR Therapy for Patients with Mild Cognitive Impairment and Dementia: Perspectives from Patients and Stakeholders."
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/DKU_DementiaVR_2023
 Author: Ruiqi Chem, Shuhe Wang,
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-01-01
